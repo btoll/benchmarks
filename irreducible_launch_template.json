@@ -1,0 +1,85 @@
+{
+    "LaunchTemplateData": {
+        "EbsOptimized": false,
+        "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::296062564641:instance-profile/benchmarks-s3"
+        },
+        "BlockDeviceMappings": [
+            {
+                "DeviceName": "/dev/xvda",
+                "Ebs": {
+                    "Encrypted": false,
+                    "DeleteOnTermination": true,
+                    "Iops": 3000,
+                    "SnapshotId": "snap-0011aac8765f142c8",
+                    "VolumeSize": 8,
+                    "VolumeType": "gp3",
+                    "Throughput": 125
+                }
+            }
+        ],
+        "NetworkInterfaces": [
+            {
+                "AssociatePublicIpAddress": true,
+                "DeleteOnTermination": true,
+                "Description": "",
+                "DeviceIndex": 0,
+                "Groups": [
+                    "sg-01347129f65fb5c66"
+                ],
+                "InterfaceType": "interface",
+                "Ipv6Addresses": [],
+                "PrivateIpAddresses": [
+                    {
+                        "Primary": true,
+                        "PrivateIpAddress": "172.31.21.175"
+                    }
+                ],
+                "SubnetId": "subnet-05bbc604fe08b8d11",
+                "NetworkCardIndex": 0
+            }
+        ],
+        "ImageId": "ami-0ebfd941bbafe70c6",
+        "InstanceType": "t2.2xlarge",
+        "KeyName": "benchmarks",
+        "Monitoring": {
+            "Enabled": false
+        },
+        "Placement": {
+            "AvailabilityZone": "us-east-1d",
+            "GroupName": "",
+            "Tenancy": "default"
+        },
+        "DisableApiTermination": false,
+        "InstanceInitiatedShutdownBehavior": "stop",
+        "UserData": "IyEvYmluL2Jhc2ggLXgKCm1rZGlyIC9yb290Ly5hd3MKCmVjaG8gLWUgIltwcm9maWxlIGlycmVkdWNpYmxlXVxucm9sZV9hcm4gPSBhcm46YXdzOmlhbTo6Mjk2MDYyNTY0NjQxOnJvbGUvaXJyZWR1Y2libGUtczNcbmNyZWRlbnRpYWxfc291cmNlID0gRWMySW5zdGFuY2VNZXRhZGF0YVxucmVnaW9uID0gdXMtZWFzdC0xIiA+IC9yb290Ly5hd3MvY3JlZGVudGlhbHMKCnl1bSBpbnN0YWxsIGdjYyBnY2MtYysrIGtlcm5lbC1kZXZlbCBtYWtlIGdpdCB1bnppcCAteQoKY3VybCBodHRwczovL2F3c2NsaS5hbWF6b25hd3MuY29tL2F3c2NsaS1leGUtbGludXgteDg2XzY0LnppcCAtbyBhd3NjbGl2Mi56aXAKdW56aXAgYXdzY2xpdjIuemlwCi4vYXdzL2luc3RhbGwKCmN1cmwgLS1wcm90byAnPWh0dHBzJyAtLXRsc3YxLjIgLXNTZiBodHRwczovL3NoLnJ1c3R1cC5ycyB8IHNoIC1zIC0tIC15IC0tZGVmYXVsdC10b29sY2hhaW4gbmlnaHRseQpleHBvcnQgSE9NRT0vcm9vdAouICIkSE9NRS8uY2FyZ28vZW52IgpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tLzB4UG9seWdvblplcm8vcGxvbmt5MgpMT0dGSUxFPSQoZGF0ZSArJXMpLnBsb25reTIubG9nCmNkIHBsb25reTIgJiYgUlVTVEZMQUdTPSItQyB0YXJnZXQtY3B1PW5hdGl2ZSIgY2FyZ28gYmVuY2ggLS1wYWNrYWdlIHBsb25reTIgfCB0ZWUgIiRMT0dGSUxFIgoKYXdzIHMzIGNwICIkTE9HRklMRSIgczM6Ly9pcnJlZHVjaWJsZTEzMzcvcGxvbmt5Mi8K",
+        "CreditSpecification": {
+            "CpuCredits": "standard"
+        },
+        "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+        },
+        "HibernationOptions": {
+            "Configured": false
+        },
+        "MetadataOptions": {
+            "HttpTokens": "required",
+            "HttpPutResponseHopLimit": 2,
+            "HttpEndpoint": "enabled",
+            "HttpProtocolIpv6": "disabled",
+            "InstanceMetadataTags": "disabled"
+        },
+        "EnclaveOptions": {
+            "Enabled": false
+        },
+        "PrivateDnsNameOptions": {
+            "HostnameType": "ip-name",
+            "EnableResourceNameDnsARecord": false,
+            "EnableResourceNameDnsAAAARecord": false
+        },
+        "MaintenanceOptions": {
+            "AutoRecovery": "default"
+        },
+        "DisableApiStop": false
+    }
+}

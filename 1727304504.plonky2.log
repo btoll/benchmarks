@@ -1,0 +1,503 @@
+
+running 95 tests
+test batch_fri::oracle::test::batch_prove_openings ... ignored
+test batch_fri::prover::tests::multiple_polynomials ... ignored
+test batch_fri::prover::tests::single_polynomial ... ignored
+test gadgets::arithmetic_extension::tests::test_div_extension ... ignored
+test gadgets::arithmetic_extension::tests::test_mul_algebra ... ignored
+test gadgets::arithmetic_extension::tests::test_mul_many ... ignored
+test gadgets::interpolation::tests::test_interpolate ... ignored
+test gadgets::random_access::tests::test_random_access ... ignored
+test gadgets::select::tests::test_select ... ignored
+test gadgets::split_base::tests::test_base_sum ... ignored
+test gadgets::split_base::tests::test_split_base ... ignored
+test gates::arithmetic_base::tests::eval_fns ... ignored
+test gates::arithmetic_base::tests::low_degree ... ignored
+test gates::arithmetic_extension::tests::eval_fns ... ignored
+test gates::arithmetic_extension::tests::low_degree ... ignored
+test gates::base_sum::tests::eval_fns ... ignored
+test gates::base_sum::tests::low_degree ... ignored
+test gates::constant::tests::eval_fns ... ignored
+test gates::constant::tests::low_degree ... ignored
+test gates::coset_interpolation::tests::eval_fns ... ignored
+test gates::coset_interpolation::tests::low_degree ... ignored
+test gates::coset_interpolation::tests::test_degree_and_wires_minimized ... ignored
+test gates::coset_interpolation::tests::test_gate_constraint ... ignored
+test gates::coset_interpolation::tests::test_num_wires_constraints ... ignored
+test gates::coset_interpolation::tests::wire_indices_degree2 ... ignored
+test gates::coset_interpolation::tests::wire_indices_degree_3 ... ignored
+test gates::coset_interpolation::tests::wire_indices_degree_n ... ignored
+test gates::exponentiation::tests::eval_fns ... ignored
+test gates::exponentiation::tests::low_degree ... ignored
+test gates::exponentiation::tests::test_gate_constraint ... ignored
+test gates::exponentiation::tests::wire_indices ... ignored
+test gates::multiplication_extension::tests::eval_fns ... ignored
+test gates::multiplication_extension::tests::low_degree ... ignored
+test gates::noop::tests::eval_fns ... ignored
+test gates::noop::tests::low_degree ... ignored
+test gates::poseidon::tests::eval_fns ... ignored
+test gates::poseidon::tests::generated_output ... ignored
+test gates::poseidon::tests::low_degree ... ignored
+test gates::poseidon::tests::wire_indices ... ignored
+test gates::poseidon_mds::tests::eval_fns ... ignored
+test gates::poseidon_mds::tests::low_degree ... ignored
+test gates::public_input::tests::eval_fns ... ignored
+test gates::public_input::tests::low_degree ... ignored
+test gates::random_access::tests::eval_fns ... ignored
+test gates::random_access::tests::low_degree ... ignored
+test gates::random_access::tests::test_gate_constraint ... ignored
+test gates::reducing::tests::eval_fns ... ignored
+test gates::reducing::tests::low_degree ... ignored
+test gates::reducing_extension::tests::eval_fns ... ignored
+test gates::reducing_extension::tests::low_degree ... ignored
+test hash::batch_merkle_tree::tests::commit_mixed ... ignored
+test hash::batch_merkle_tree::tests::commit_single ... ignored
+test hash::batch_merkle_tree::tests::test_batch_merkle_trees ... ignored
+test hash::batch_merkle_tree::tests::test_batch_merkle_trees_cap_at_leaves_height ... ignored
+test hash::merkle_proofs::tests::test_recursive_merkle_proof ... ignored
+test hash::merkle_tree::tests::test_cap_height_eq_log2_len ... ignored
+test hash::merkle_tree::tests::test_cap_height_too_big - should panic ... ignored
+test hash::merkle_tree::tests::test_merkle_trees ... ignored
+test hash::path_compression::tests::test_path_compression ... ignored
+test hash::poseidon_goldilocks::tests::consistency ... ignored
+test hash::poseidon_goldilocks::tests::test_vectors ... ignored
+test iop::challenger::tests::no_duplicate_challenges ... ignored
+test iop::challenger::tests::test_consistency ... ignored
+test lookup_test::test_big_lut ... ignored
+test lookup_test::test_different_inputs ... ignored
+test lookup_test::test_lookup_table_not_used - should panic ... ignored
+test lookup_test::test_lookup_without_table - should panic ... ignored
+test lookup_test::test_many_lookups ... ignored
+test lookup_test::test_many_lookups_on_big_lut ... ignored
+test lookup_test::test_no_lookup ... ignored
+test lookup_test::test_one_lookup ... ignored
+test lookup_test::test_same_luts ... ignored
+test lookup_test::test_two_luts ... ignored
+test plonk::proof::tests::test_proof_compression ... ignored
+test plonk::proof::tests::test_proof_compression_lookup ... ignored
+test recursion::conditional_recursive_verifier::tests::test_conditional_recursive_verifier ... ignored
+test recursion::cyclic_recursion::tests::test_cyclic_recursion ... ignored
+test recursion::recursive_verifier::tests::test_recursive_recursive_verifier ... ignored
+test recursion::recursive_verifier::tests::test_recursive_verifier ... ignored
+test recursion::recursive_verifier::tests::test_recursive_verifier_multi_hash ... ignored
+test recursion::recursive_verifier::tests::test_recursive_verifier_one_lookup ... ignored
+test recursion::recursive_verifier::tests::test_recursive_verifier_too_many_rows ... ignored
+test recursion::recursive_verifier::tests::test_recursive_verifier_two_luts ... ignored
+test recursion::recursive_verifier::tests::test_size_optimized_recursion ... ignored
+test util::partial_products::tests::test_partial_products ... ignored
+test util::reducing::tests::test_reduce_gadget_100 ... ignored
+test util::reducing::tests::test_reduce_gadget_base_100 ... ignored
+test util::reducing::tests::test_reduce_gadget_even ... ignored
+test util::reducing::tests::test_reduce_gadget_odd ... ignored
+test util::tests::test_reverse_bits ... ignored
+test util::tests::test_reverse_index_bits ... ignored
+test util::tests::test_reverse_index_bits_in_place_big_even ... ignored
+test util::tests::test_reverse_index_bits_in_place_big_odd ... ignored
+test util::tests::test_reverse_index_bits_in_place_small ... ignored
+test util::tests::test_reverse_index_bits_in_place_trivial ... ignored
+
+test result: ok. 0 passed; 0 failed; 95 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+fft<GoldilocksField>/8192
+                        time:   [193.65 µs 197.28 µs 200.75 µs]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) low mild
+fft<GoldilocksField>/16384
+                        time:   [385.00 µs 392.88 µs 400.73 µs]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) low mild
+fft<GoldilocksField>/32768
+                        time:   [823.28 µs 835.48 µs 847.86 µs]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high severe
+fft<GoldilocksField>/65536
+                        time:   [1.7353 ms 1.7658 ms 1.7967 ms]
+Found 4 outliers among 100 measurements (4.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+lde<GoldilocksField>/8192
+                        time:   [154.87 µs 157.24 µs 159.56 µs]
+Found 10 outliers among 100 measurements (10.00%)
+  4 (4.00%) low mild
+  4 (4.00%) high mild
+  2 (2.00%) high severe
+lde<GoldilocksField>/16384
+                        time:   [326.57 µs 333.88 µs 341.47 µs]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) low mild
+lde<GoldilocksField>/32768
+                        time:   [719.08 µs 732.63 µs 745.38 µs]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) low mild
+  1 (1.00%) high severe
+lde<GoldilocksField>/65536
+                        time:   [1.4799 ms 1.5082 ms 1.5369 ms]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) low mild
+
+mul-throughput<GoldilocksField>
+                        time:   [149.38 ns 156.07 ns 163.20 ns]
+Found 7 outliers among 100 measurements (7.00%)
+  4 (4.00%) high mild
+  3 (3.00%) high severe
+
+mul-latency<GoldilocksField>
+                        time:   [317.95 ns 322.69 ns 327.76 ns]
+Found 19 outliers among 100 measurements (19.00%)
+  13 (13.00%) low mild
+  4 (4.00%) high mild
+  2 (2.00%) high severe
+
+sqr-throughput<GoldilocksField>
+                        time:   [136.40 ns 144.98 ns 154.45 ns]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+
+sqr-latency<GoldilocksField>
+                        time:   [316.60 ns 321.85 ns 327.40 ns]
+Found 7 outliers among 100 measurements (7.00%)
+  2 (2.00%) low mild
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+
+add-throughput<GoldilocksField>
+                        time:   [58.547 ns 65.119 ns 73.167 ns]
+Found 22 outliers among 100 measurements (22.00%)
+  2 (2.00%) low severe
+  2 (2.00%) low mild
+  5 (5.00%) high mild
+  13 (13.00%) high severe
+
+add-latency<GoldilocksField>
+                        time:   [97.469 ns 100.33 ns 103.36 ns]
+Found 4 outliers among 100 measurements (4.00%)
+  2 (2.00%) high mild
+  2 (2.00%) high severe
+
+try_inverse<GoldilocksField>
+                        time:   [261.71 ns 266.77 ns 271.25 ns]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+batch_multiplicative_inverse-tiny<GoldilocksField>
+                        time:   [289.62 ns 295.97 ns 302.20 ns]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+
+batch_multiplicative_inverse-small<GoldilocksField>
+                        time:   [337.66 ns 349.00 ns 360.94 ns]
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+
+batch_multiplicative_inverse-medium<GoldilocksField>
+                        time:   [401.65 ns 425.01 ns 449.18 ns]
+Found 6 outliers among 100 measurements (6.00%)
+  6 (6.00%) high mild
+
+batch_multiplicative_inverse-large<GoldilocksField>
+                        time:   [2.0523 µs 2.3259 µs 2.6813 µs]
+Found 13 outliers among 100 measurements (13.00%)
+  1 (1.00%) high mild
+  12 (12.00%) high severe
+
+batch_multiplicative_inverse-huge<GoldilocksField>
+                        time:   [390.09 µs 427.18 µs 468.05 µs]
+Found 19 outliers among 100 measurements (19.00%)
+  19 (19.00%) high severe
+
+mul-throughput<QuadraticExtension<GoldilocksField>>
+                        time:   [497.77 ns 515.10 ns 533.71 ns]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+
+mul-latency<QuadraticExtension<GoldilocksField>>
+                        time:   [734.19 ns 745.15 ns 755.67 ns]
+Found 17 outliers among 100 measurements (17.00%)
+  10 (10.00%) low mild
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+
+sqr-throughput<QuadraticExtension<GoldilocksField>>
+                        time:   [466.17 ns 486.97 ns 509.81 ns]
+Found 7 outliers among 100 measurements (7.00%)
+  7 (7.00%) high mild
+
+sqr-latency<QuadraticExtension<GoldilocksField>>
+                        time:   [760.79 ns 770.16 ns 779.71 ns]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+
+add-throughput<QuadraticExtension<GoldilocksField>>
+                        time:   [137.14 ns 156.25 ns 177.84 ns]
+Found 16 outliers among 100 measurements (16.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+  14 (14.00%) high severe
+
+add-latency<QuadraticExtension<GoldilocksField>>
+                        time:   [114.54 ns 118.89 ns 123.28 ns]
+Found 7 outliers among 100 measurements (7.00%)
+  3 (3.00%) high mild
+  4 (4.00%) high severe
+
+try_inverse<QuadraticExtension<GoldilocksField>>
+                        time:   [290.15 ns 296.53 ns 303.42 ns]
+Found 6 outliers among 100 measurements (6.00%)
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+
+batch_multiplicative_inverse-tiny<QuadraticExtension<GoldilocksField>>
+                        time:   [338.50 ns 349.68 ns 362.16 ns]
+Found 7 outliers among 100 measurements (7.00%)
+  6 (6.00%) high mild
+  1 (1.00%) high severe
+
+batch_multiplicative_inverse-small<QuadraticExtension<GoldilocksField>>
+                        time:   [392.19 ns 414.09 ns 440.92 ns]
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) high mild
+  5 (5.00%) high severe
+
+batch_multiplicative_inverse-medium<QuadraticExtension<GoldilocksField>>
+                        time:   [764.58 ns 818.67 ns 879.62 ns]
+Found 8 outliers among 100 measurements (8.00%)
+  3 (3.00%) high mild
+  5 (5.00%) high severe
+
+batch_multiplicative_inverse-large<QuadraticExtension<GoldilocksField>>
+                        time:   [7.3389 µs 7.9728 µs 8.6904 µs]
+Found 20 outliers among 100 measurements (20.00%)
+  20 (20.00%) high severe
+
+batch_multiplicative_inverse-huge<QuadraticExtension<GoldilocksField>>
+                        time:   [1.5273 ms 1.6237 ms 1.7235 ms]
+
+mul-throughput<QuarticExtension<GoldilocksField>>
+                        time:   [2.1926 µs 2.2572 µs 2.3277 µs]
+Found 6 outliers among 100 measurements (6.00%)
+  6 (6.00%) high mild
+
+mul-latency<QuarticExtension<GoldilocksField>>
+                        time:   [3.7056 µs 3.7577 µs 3.8125 µs]
+Found 8 outliers among 100 measurements (8.00%)
+  3 (3.00%) low mild
+  5 (5.00%) high mild
+
+sqr-throughput<QuarticExtension<GoldilocksField>>
+                        time:   [1.7232 µs 1.7798 µs 1.8378 µs]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+
+sqr-latency<QuarticExtension<GoldilocksField>>
+                        time:   [1.7079 µs 1.7338 µs 1.7577 µs]
+Found 18 outliers among 100 measurements (18.00%)
+  11 (11.00%) low mild
+  2 (2.00%) high mild
+  5 (5.00%) high severe
+
+add-throughput<QuarticExtension<GoldilocksField>>
+                        time:   [298.50 ns 338.73 ns 388.78 ns]
+Found 16 outliers among 100 measurements (16.00%)
+  16 (16.00%) high severe
+
+add-latency<QuarticExtension<GoldilocksField>>
+                        time:   [184.61 ns 192.79 ns 201.90 ns]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+
+try_inverse<QuarticExtension<GoldilocksField>>
+                        time:   [394.88 ns 407.60 ns 421.42 ns]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+
+batch_multiplicative_inverse-tiny<QuarticExtension<GoldilocksField>>
+                        time:   [489.66 ns 509.73 ns 532.42 ns]
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+
+batch_multiplicative_inverse-small<QuarticExtension<GoldilocksField>>
+                        time:   [657.37 ns 682.41 ns 708.00 ns]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+
+batch_multiplicative_inverse-medium<QuarticExtension<GoldilocksField>>
+                        time:   [2.1124 µs 2.2279 µs 2.3551 µs]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+
+batch_multiplicative_inverse-large<QuarticExtension<GoldilocksField>>
+                        time:   [25.665 µs 26.865 µs 28.111 µs]
+Found 7 outliers among 100 measurements (7.00%)
+  5 (5.00%) high mild
+  2 (2.00%) high severe
+
+batch_multiplicative_inverse-huge<QuarticExtension<GoldilocksField>>
+                        time:   [5.1764 ms 5.4237 ms 5.6803 ms]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+
+mul-throughput<QuinticExtension<GoldilocksField>>
+                        time:   [2.7279 µs 2.7944 µs 2.8629 µs]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) high mild
+  2 (2.00%) high severe
+
+mul-latency<QuinticExtension<GoldilocksField>>
+                        time:   [4.4280 µs 4.4857 µs 4.5456 µs]
+Found 16 outliers among 100 measurements (16.00%)
+  6 (6.00%) low mild
+  8 (8.00%) high mild
+  2 (2.00%) high severe
+
+sqr-throughput<QuinticExtension<GoldilocksField>>
+                        time:   [2.5296 µs 2.5981 µs 2.6717 µs]
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+
+sqr-latency<QuinticExtension<GoldilocksField>>
+                        time:   [2.5999 µs 2.6222 µs 2.6447 µs]
+Found 17 outliers among 100 measurements (17.00%)
+  12 (12.00%) low mild
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+
+add-throughput<QuinticExtension<GoldilocksField>>
+                        time:   [367.58 ns 422.30 ns 491.18 ns]
+Found 17 outliers among 100 measurements (17.00%)
+  1 (1.00%) high mild
+  16 (16.00%) high severe
+
+add-latency<QuinticExtension<GoldilocksField>>
+                        time:   [259.78 ns 272.39 ns 286.08 ns]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+
+try_inverse<QuinticExtension<GoldilocksField>>
+                        time:   [412.86 ns 426.77 ns 441.39 ns]
+Found 4 outliers among 100 measurements (4.00%)
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+
+batch_multiplicative_inverse-tiny<QuinticExtension<GoldilocksField>>
+                        time:   [576.45 ns 609.91 ns 649.85 ns]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+
+batch_multiplicative_inverse-small<QuinticExtension<GoldilocksField>>
+                        time:   [739.87 ns 784.65 ns 832.32 ns]
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) high mild
+  4 (4.00%) high severe
+
+batch_multiplicative_inverse-medium<QuinticExtension<GoldilocksField>>
+                        time:   [2.4363 µs 2.5637 µs 2.7004 µs]
+Found 10 outliers among 100 measurements (10.00%)
+  7 (7.00%) high mild
+  3 (3.00%) high severe
+
+batch_multiplicative_inverse-large<QuinticExtension<GoldilocksField>>
+                        time:   [44.682 µs 46.938 µs 49.427 µs]
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+
+batch_multiplicative_inverse-huge<QuinticExtension<GoldilocksField>>
+                        time:   [6.7172 ms 6.9773 ms 7.2363 ms]
+
+poseidon<GoldilocksField, 12>
+                        time:   [1.9914 µs 2.0420 µs 2.0920 µs]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+keccak256               time:   [520.78 ns 531.12 ns 541.28 ns]
+Found 5 outliers among 100 measurements (5.00%)
+  4 (4.00%) high mild
+  1 (1.00%) high severe
+
+merkle-tree<GoldilocksField, PoseidonHash>/8192
+                        time:   [46.680 ms 47.008 ms 47.449 ms]
+Found 1 outliers among 10 measurements (10.00%)
+  1 (10.00%) high mild
+merkle-tree<GoldilocksField, PoseidonHash>/16384
+                        time:   [92.584 ms 93.459 ms 94.408 ms]
+merkle-tree<GoldilocksField, PoseidonHash>/32768
+                        time:   [184.63 ms 186.95 ms 189.86 ms]
+Found 1 outliers among 10 measurements (10.00%)
+  1 (10.00%) high mild
+
+merkle-tree<GoldilocksField, KeccakHash>/8192
+                        time:   [11.795 ms 11.983 ms 12.094 ms]
+merkle-tree<GoldilocksField, KeccakHash>/16384
+                        time:   [24.044 ms 24.336 ms 24.491 ms]
+merkle-tree<GoldilocksField, KeccakHash>/32768
+                        time:   [47.298 ms 47.552 ms 47.919 ms]
+
+reverse-index-bits-in-place/256
+                        time:   [216.54 ns 217.03 ns 217.52 ns]
+Found 10 outliers among 100 measurements (10.00%)
+  4 (4.00%) low severe
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+reverse-index-bits-in-place/65536
+                        time:   [59.403 µs 59.824 µs 60.373 µs]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+reverse-index-bits-in-place/16777216
+                        time:   [62.474 ms 62.688 ms 62.926 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+
+reverse-index-bits/256  time:   [353.90 ns 354.72 ns 355.54 ns]
+Found 10 outliers among 100 measurements (10.00%)
+  3 (3.00%) low severe
+  2 (2.00%) low mild
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+reverse-index-bits/65536
+                        time:   [97.651 µs 97.831 µs 98.011 µs]
+Found 13 outliers among 100 measurements (13.00%)
+  1 (1.00%) low severe
+  5 (5.00%) low mild
+  3 (3.00%) high mild
+  4 (4.00%) high severe
+reverse-index-bits/16777216
+                        time:   [349.33 ms 349.93 ms 350.57 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+
+transpose/5             time:   [1.3926 ms 1.4080 ms 1.4249 ms]
+Found 4 outliers among 100 measurements (4.00%)
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+transpose/50            time:   [3.6962 ms 3.7857 ms 3.8774 ms]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+transpose/100           time:   [10.671 ms 10.844 ms 11.020 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+transpose/150           time:   [15.724 ms 15.983 ms 16.247 ms]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+
